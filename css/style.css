@@ -1,0 +1,42 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 380px;
+    margin: 0 auto;
+}
+.numberPad {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2rem;
+}
+
+.default:hover {
+    background-color: rgb(173, 211, 211);
+    
+}
+
+.noCodeSet {
+    background-color: grey
+}
+
+.clicked {
+    background-color: rgb(27, 189, 27);
+}
+
+.clicked:hover {
+    background-color: rgb(19, 165, 19);
+}
+
+.accessGranted {
+    background-color: goldenrod;
+}
